@@ -1,0 +1,95 @@
+/* Basic resets and styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Header */
+header {
+  margin-bottom: 20px;
+}
+
+/* Products grid layout */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Individual product container */
+.product {
+  border: 1px solid #ccc;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.product p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+/* Add-to-cart button */
+.button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0284c7;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #026c9f;
+}
+
+/* Cart table styling */
+.cart-table {
+  margin-top: 30px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.cart-table th {
+  background-color: #f2f2f2;
+}
+
+/* Remove button in table */
+.remove-btn {
+  cursor: pointer;
+  background-color: #ff5c5c;
+  color: #fff;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+.remove-btn:hover {
+  background-color: #e04b4b;
+}

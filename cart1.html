@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Shop</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Jambo Shop</h1>
+  </header>
+
+  <main>
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="/WhatsApp Image 2025-03-21 at 14.27.01.jpeg" alt="Basketball">
+      <h2>Basketball</h2>
+      <p>Brown ball</p>
+      <p>KSH.3000</p>
+      <!-- Button with data attributes for name and price -->
+      <button 
+        class="button add-to-cart" 
+      >
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="/WhatsApp Image 2025-03-21 at 14.27.00.jpeg" alt="Hoodie">
+      <h2>Hoodie</h2>
+      <p>Yellow hoodie</p>
+      <p>KSH.925</p>
+      <button 
+        class="button add-to-cart" 
+      >
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+      <img src="/WhatsApp Image 2025-03-21 at 14.26.59p.jpeg" alt="Plates">
+      <h2>Plates</h2>
+      <p>Five white plates</p>
+      <p>KSH.1500</p>
+      <button 
+        class="button add-to-cart" 
+      >
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product">
+      <img src="/WhatsApp Image 2025-03-21 at 14.26.58.jpeg" alt="Shirt">
+      <h2>Shirt</h2>
+      <p>2 blue shirts</p>
+      <p>KSH.600</p>
+      <button 
+        class="button add-to-cart" 
+      >
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Product 5 -->
+    <!-- Note: Removed the extra "p" in the filename -->
+    <div class="product">
+      <img src="/WhatsApp Image 2025-03-21 at 14.26.59.jpeg" alt="Toaster">
+      <h2>Toaster</h2>
+      <p>Black double toaster</p>
+      <p>KSH.4000</p>
+      <button 
+        class="button add-to-cart" 
+        
+      >
+        Add to Cart
+      </button>
+    </div>
+  </main>
+
+  <footer>
+    <!-- Shopping list table -->
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>ITEM</th>
+          <th>PRICE</th>
+          <th>QTY</th>
+          <th>TOTAL</th>
+          <th>REMOVE</th>
+        </tr>
+      </thead>
+      <tbody id="cart-items"></tbody>
+    </table>
+  </footer>
+
+  <!-- Link to external JS file -->
+  <script src="/cart1.js"></script>
+</body>
+</html>
